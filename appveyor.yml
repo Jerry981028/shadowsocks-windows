@@ -20,3 +20,7 @@ artifacts:
   name: Shadowsocks-release.exe
 - path: shadowsocks-csharp\bin\x86\Debug\Shadowsocks.exe
   name: Shadowsocks-debug.exe
+deploy:
+  provider: Environment
+  name: GitHub
+  
